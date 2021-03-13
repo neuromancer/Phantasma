@@ -9,8 +9,10 @@
 #ifndef __Phantasma__VertexAttribute__
 #define __Phantasma__VertexAttribute__
 
+#include <cstring>
 #include <iostream>
 #include <vector>
+#include <GL/glew.h>
 
 class VertexAttribute
 {

@@ -9,6 +9,7 @@
 #ifndef __Phantasma__Area__
 #define __Phantasma__Area__
 
+#include <algorithm>
 #include <iostream>
 #include <map>
 #include "Object.h"

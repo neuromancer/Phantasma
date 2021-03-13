@@ -10,6 +10,7 @@
 #define __Phantasma__GeometricObject__
 
 #include "Object.h"
+#include <GL/glew.h>
 
 class BatchDrawer;
 class GeometricObject: public Object

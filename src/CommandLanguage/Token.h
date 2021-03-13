@@ -11,6 +11,7 @@
 
 #include <string>
 #include <stdint.h>
+#include <memory>
 #include "GameState.h"
 
 struct Token

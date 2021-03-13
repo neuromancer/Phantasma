@@ -278,11 +278,13 @@ Game *load16bitBinary(vector <uint8_t> &binary)
 	{
 		// TODO: record original platform type, so we can decode the palette
 		// and possibly the border properly
+		cout << "AMIGA" << endl;
 
 		streamLoader.setReadMask((platformID >> 8) ^ 'A', (platformID & 0xff) ^ 'M');
 	}
 	else
 	{
+		cout << "not AMIGA" << endl;
 		// find DOS end of file and consume it
 		while(!streamLoader.eof() && streamLoader.get8() != 0x1a);
 		streamLoader.get8();

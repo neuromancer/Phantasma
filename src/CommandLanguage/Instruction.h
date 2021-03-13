@@ -11,6 +11,7 @@
 
 #include "Token.h"
 #include <vector>
+#include <memory>
 class CGameState;
 
 class FCLInstruction;

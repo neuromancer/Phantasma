@@ -12,6 +12,7 @@
 #include <iostream>
 #include <vector>
 #include <stdint.h>
+#include <memory>
 
 using namespace std;
 shared_ptr<string> detokenise8bitCondition(vector <uint8_t> &tokenisedCondition);

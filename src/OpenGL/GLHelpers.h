@@ -9,6 +9,8 @@
 #ifndef Phantasma_GLHelpers_h
 #define Phantasma_GLHelpers_h
 
+#include <GL/glew.h>
+
 #ifdef __cplusplus 
 extern "C" {
 #endif

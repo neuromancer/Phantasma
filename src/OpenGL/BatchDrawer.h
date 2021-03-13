@@ -10,6 +10,7 @@
 #define __Phantasma__BatchDrawer__
 
 #include <iostream>
+#include <GL/glew.h>
 
 class VertexBuffer;
 class DrawElementsBuffer;

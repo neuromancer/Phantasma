@@ -12,8 +12,9 @@
 #include <iostream>
 #include <vector>
 #include <stdint.h>
+#include <memory>
 
 using namespace std;
-shared_ptr<string> detokenise16bitCondition(vector <uint8_t> &tokenisedCondition);
+std::shared_ptr<string> detokenise16bitCondition(vector <uint8_t> &tokenisedCondition);
 
 #endif /* defined(__Phantasma___6bitDetokeniser__) */

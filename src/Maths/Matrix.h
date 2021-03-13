@@ -8,6 +8,7 @@
 
 #ifndef Phantasma_Matrix_h
 #define Phantasma_Matrix_h
+#include <GL/glew.h>
 
 class Matrix
 {

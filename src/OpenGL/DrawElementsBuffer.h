@@ -10,6 +10,7 @@
 #define Phantasma_DrawElementsBuffer_h
 
 #include <vector>
+#include <GL/glew.h>
 
 class DrawElementsBuffer
 {
