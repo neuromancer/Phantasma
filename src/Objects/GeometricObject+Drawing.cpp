@@ -14,7 +14,7 @@
 #include <string.h>
 
 #pragma mark -
-#pragma mark Statics — shader setup and the class setters that interface with the shader
+#pragma mark Statics - shader setup and the class setters that interface with the shader
 
 int arc4random_uniform(int max) {
     return 0;
