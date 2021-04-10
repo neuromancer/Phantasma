@@ -1,9 +1,13 @@
-
 #include <fstream>
 #include <vector>
 #include <assert.h>
 
 #include "Loaders/16bitBinaryLoader.h"
+#include "Loaders/8bitBinaryLoader.h"
+
+#define OFFSET_DARKSIDE       0xc9ce
+#define OFFSET_DRILLER        0xcf3e
+#define OFFSET_TOTALECLIPSE   0xcdb7
 
 int main(int argc, char *argv[])
 {
